@@ -1,0 +1,558 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    position: relative;
+    width: auto;
+    height: auto;
+    font-family: "Poppins", sans-serif;
+}
+.hero{
+    background-image: url(./img/images/trackwise-bg.jpg);
+    object-fit: cover;
+    background-repeat: no-repeat;
+    height: 110vh;
+    width: 100%;
+}
+header{
+    height: 100px;
+    width: 100%;
+}
+.logo{
+    width: 100px;
+    height: 90px;
+    padding-top: 15px;
+}
+.logo img{
+    width: 100%;
+    height: 100%;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-list{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+.nav-list a{
+    text-decoration: none;
+    color: #000;
+    font-size: 1rem;
+    font-weight: 600;
+    gap: 6px;
+    display: flex;
+    align-items: center;
+}
+.chevron{
+    font-size: 1.2em;
+    line-height: 1;
+}
+.head-button{
+    padding-inline:  2rem;
+    display: flex;
+    gap: 8px;
+}
+.head-button button{
+    width: 6rem;
+    height: 2rem;
+    border-radius: 8px;
+    border: none;
+    color: #000;
+    font-size: 0.85rem;
+    font-weight: 550;
+}
+.login{
+    background-color: #CBFFD0;
+}
+.sign-up{
+    background-color: #26A69A;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+/*---------------------------Track-----------------------------------*/
+.track{
+    margin-top: 50px;
+    display: flex;
+    width: 100%;
+}
+.text-box{
+    width: 45%;
+    padding-left: 20px;
+}
+.text-box h1{
+    font-size: 3.2rem;
+}
+.text-box p{
+    font-size: 1.5rem;
+    font-weight: 520;
+}
+.download-app{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    
+}
+.app-store, .google-store{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    border: none;
+    background-color: #000;
+    color: #fff;
+    padding-block: 6px;
+    padding-inline: 8px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.appstore-img{
+    width: 1.8rem;
+    height: 1.8rem;
+}
+.googlestore-img{
+    width: 1.8rem;
+    height: 1.6rem;
+}
+.appstore-text p, .googlestore-text p{
+    font-size: 0.6rem;
+    text-align: left;
+    text-transform: uppercase;
+}
+.appstore-text h3, .googlestore-text h3{
+        font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif;
+        font-weight: 500;
+        font-size: 0.875rem;
+        color:#fff;
+}
+.group{
+    width: 55%;
+    position: relative;
+}
+.rectangle604{
+    width: 400px;
+    height: 494px;
+    background-color: #CBFFD0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    overflow: hidden;
+    border-top-left-radius: 250px;
+}
+
+.laptop{
+    position: absolute;
+    width: 700px;
+    height: 600px;
+    z-index: 10;
+    right: 0;
+}
+/*----------------------------Section Two----------------*/
+.sect-two{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    z-index: 100;
+    box-shadow: 0 -5px 10px rgba(0, 0, 0, 0.2), 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+.second-container{
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+.phone{
+    display: flex;
+    width: 40%;
+}
+.phone-div{
+    width: 380px;
+    height: 500px;
+    background-color: #26A69A;
+    overflow: hidden;
+    border-bottom-right-radius: 250px;
+}
+.hand-img{
+    position: absolute;
+    overflow: hidden;
+    width: 410px;
+    height: 400px;
+    top: 118px;
+}
+.second-boxtext{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+.second-boxtext h2{
+    margin: 30px 0 15px 62px ;
+}
+.grid-container{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    justify-content: space-around;
+    grid-template-columns: repeat(2, 220px);
+    grid-template-rows: repeat(2, 200px);
+    gap: 60px;
+}
+.grid-text{
+    width: 100%;
+    border-radius: 20px;
+    padding: 13px;
+}
+.income, .financial{
+    background-color: #CBFFD0;
+}
+.visual, .smart{
+    background-color: #26A69A;
+}
+.small-img{
+    width: 40px;
+    height: 40px;
+}
+/*--------------------------------How It Works---------------------*/
+.how-it-works-sect{
+    background-image: url(./img/images/trackwise-bg.jpg);
+    background-repeat: no-repeat;
+    object-fit: cover;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    z-index: 0;
+}
+.how-it-works-sect h2{
+    margin-block: 50px 20px;
+}
+.how-box{
+    width: 80%;
+    height: 150px;    
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.how-text-box{
+    width: 300px;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    padding: 10px 8px;
+
+}
+.how-text-box p{
+    font-size: 1rem;
+}
+.how-box-one{
+    display: flex;
+    justify-content: space-between;
+
+}
+.how-box-two{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.lightgreen{
+    background-color: #CBFFD0;
+}
+.darkgreen{
+    background-color: #26A69A;
+}
+.how-margin{
+    margin-inline: 10px;
+}
+
+.rect-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    left: 320px;
+    position: absolute;
+    bottom: 0;
+}
+.third-rectangle-1{
+    width: 330px;
+    height: 230px;
+    background-color: #CBFFD0;
+    border-start-start-radius: 150px;
+}
+.third-rectangle-2{
+    width: 330px;
+    height: 230px;
+    background-color: #CBFFD0;
+    border-start-start-radius: 150px;
+    transform: scaleX(-1);
+}
+.mockup-female{
+    width: 400px;
+    height: 500px;
+    position: absolute;
+    left: 510px;
+    bottom: 0;
+    overflow: hidden;
+}
+.mockup-female img{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    top: 200px
+}
+/*-----------------------------Testimonials--------------------*/
+.testimonials{
+    width: 100%;
+    height: 100vh;
+    background-color: #fff;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 5;
+    box-shadow: 0 -5px 10px rgba(0, 0, 0, 0.2), 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+.testimonials > h3{
+    margin-top: 50px;
+}
+.testimonial-rectangle{
+    width: 350px;
+    height: 380px;
+    position: absolute;
+    left: 0;
+    background-color: #26A69A;
+    border-start-end-radius: 250px;
+    transform: scaleY(-1)
+}
+.testimonial-rectangle-sec{
+    width: 330px;
+    height: 380px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    background-color: #26A69A;
+    border-start-end-radius: 250px;
+    transform: scaleX(-1)
+}
+.testimonials-grid{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 100;
+}
+.testimonial-lg{
+    width: 220px;
+    height: 250px;
+    background-color: #CBFFD0;
+    padding: 20px 5px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 10px;
+    z-index: 0;
+}
+.testimonial-dg{
+    width: 250px;
+    height: 300px;
+    background-color: #26A69A;
+    padding: 20px 8px;
+    text-align: center;
+    font-size: 1.1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 10px;
+    z-index: 100;
+}
+.testimonials-grid h3{
+    margin-top: 20px;
+}
+.profile{
+    width: 70px;
+    height: 70px;
+}
+.profile img{
+
+    width: 100%;
+    height: 100%;
+}
+/*------------------------FAQs------------------------------------------*/
+.faqs{
+    background-image: url(./img/images/trackwise-bg.jpg);
+    background-repeat: no-repeat;
+    object-fit: cover;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    gap: 20px;
+    position: relative;
+    z-index: -1;
+
+}
+.faqs-rectangle-container{
+    width: 30%;
+
+}
+.faqs-rect-box{
+    width: 350px;
+    height: 420px;
+    position: absolute;
+    left: 0;
+    background-color: #CBFFD0;
+    border-start-end-radius: 250px;
+    transform: scaleY(-1);
+    z-index: 1;
+}
+.faqs-text{
+    width: 65%;
+    height: 600px;
+    margin-left: 50px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    z-index: 10;
+}
+.faqs-text > h3{
+    margin-bottom: 20px;
+}
+.faqs-text-box{
+    width: 70%;
+    height: 300px;
+    background-color: #26A69A;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    z-index: 10;
+}
+.faqs-boxtext{
+    width: 95%;
+    height: 50px;
+    background-color: #CBFFD0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline: 10px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+}
+.faqs-boxtext p{
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+.arrowdown{
+    width: 1.5rem;
+    height: 1.5rem;
+    background-color: #26A69A;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+.arrowdown .fa-solid{
+    color: #CBFFD0;
+    font-size: 0.8rem;
+}
+
+
+/*----------------------------------Footer---------------------------------------*/
+footer{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+/*     background-color: #26A69A; */
+    background-image: url(./img/images/image.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: 10;
+    box-shadow: 0 -5px 10px rgba(0, 0, 0, 0.4), 0 5px 10px rgba(0, 0, 0, 0.4);
+}
+.footer-logo{
+    width: 100px;
+}
+.footer-logo img{
+    color: #fff;
+}
+footer > p{
+    color: #fff;
+    font-size: 1.15rem;
+    margin-bottom: 10px;
+}
+.footer-span{
+    font-weight: 550;
+}
+footer > h4{
+    color: #fff;
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+.footer-socials{
+    display: flex;
+    gap: 20px;
+}
+.fa-brands{
+    font-size: 1.7rem;
+}
+
+.footer-app{
+    margin-block: 20px;
+}
+.contact-us{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.contact-us p{
+    color: #fff;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+.footer-icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    width: 20px;
+    height: 100%;
+    padding: 3px;
+    border-radius: 4px;
+}
+.footer-icon p{
+    font-size: 0.8rem;
+    color: #26A69A;
+}
+.policy{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+.policy a{
+    color: #fff;
+}
